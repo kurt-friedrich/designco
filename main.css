@@ -89,7 +89,7 @@ body {
 }
 
 #container {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   display: -webkit-flex;
   display: flex;
   width: 960px;
@@ -98,7 +98,7 @@ body {
 }
 
 #topsy {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   display: inline-block;
   margin: 50px auto;
   width: 450px;
@@ -107,7 +107,7 @@ body {
 }
 
 #footer {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 960px;
   margin: 0px auto;
   padding: 0;
@@ -116,7 +116,7 @@ body {
 
 #footerleft {
   text-align: left;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   float: left;
   /*position: fixed;*/
   bottom: 0;
@@ -128,7 +128,7 @@ body {
 
 #footerright {
   text-align: left;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   float: right;
   /*position: fixed;*/
   bottom: 0;
