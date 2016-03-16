@@ -7,36 +7,72 @@ h1 {
 }
 
 nav {
+    background-color: #f7f7f7;
     border: 1px solid #f91000;
+    /*display: block;*/
+    height: 75px;
+    margin: 0;
+    /*padding: 15px;*/
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /*text-align: center;*/
+    /*display: inline-block;*/
+}
+
+#nav {
+    border: 1px solid green;
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+    height: 75px;
+    padding: 0;
+    top: 0;
 }
 
 ul {
     border: 1px solid blue;
-    background-color: #f7f7f7;
+    display: block;
     list-style-type: none;
-    margin: 0;
+    overflow: hidden;
     padding: 0;
-    text-decoration: none;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 li {
+    border: 1px solid black;
     float: left;
-    padding: 20px;
+    margin: auto 10px;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
 }
 
-#search{
-    height: 16px;
+#designco {
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#search {
+    height: 24px;
     float: right;
+    display: block;
 }
 
-a {
+li a {
+    display: block;
+    color: #313131;
+    margin: auto;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*a, a:visited {
     display: block;
     padding: 8px;
-}
+    text-decoration: none;
+    color: #313131;
+}*/
 
 body {
-    text-color: #747474;
+    color: #747474;
 }
