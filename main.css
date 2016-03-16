@@ -1,3 +1,42 @@
 * {
-  font-family: Helvetica;
+    font-family: Helvetica;
+}
+
+h1 {
+
+}
+
+nav {
+    border: 1px solid #f91000;
+}
+
+ul {
+    border: 1px solid blue;
+    background-color: #f7f7f7;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    padding: 20px;
+}
+
+#search{
+    height: 16px;
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+body {
+    text-color: #747474;
 }
